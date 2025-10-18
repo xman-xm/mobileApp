@@ -10,6 +10,7 @@ export default function Layout() {
         tabBarActiveTintColor: '#6200ee',
         tabBarInactiveTintColor: '#222',
         tabBarStyle: { backgroundColor: '#fff' },
+        
       }}
     >
       <Tabs.Screen
@@ -24,7 +25,7 @@ export default function Layout() {
       <Tabs.Screen
         name="settings"
         options={{
-          title: 'Settings',
+        
           tabBarIcon: ({ color, size }) => (
             <MaterialIcons name="settings" size={size} color={color} />
           ),

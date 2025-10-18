@@ -6,9 +6,10 @@ export default function Settings() {
   const insets = useSafeAreaInsets();
 
   return (
-    <View style={{ paddingTop: insets.top }} className="flex-1 items-center justify-center">
-      <Text className="text-2xl font-bold">Settings</Text>
-      <Text className="mt-2">Adjust your preferences  here.</Text>
+    <View style={{ paddingTop: insets.top }} className="flex-1 bg-white  items-center justify-center">
+ <View>
+    
+ </View>
     </View>
   );
 }

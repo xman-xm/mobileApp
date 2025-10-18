@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.header-b{
+    border-bottom: 1px solid #e5e7eb;
+}
+.post-image{
+    max-height: calc(100vh - 200px);
+}
+.post-borders{
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+}
